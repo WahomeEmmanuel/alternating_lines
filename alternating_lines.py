@@ -6,7 +6,7 @@ def print_alternating(file_name, n):
     # containing each line in the file as a list item.
     lines = open_file.readlines()
     
-    start_position = 0 # keeps track of which position to start reading from in a line; it's reset to 0 in case of a blank line or to 1 if the nth word has been reached
+    start_position = 0 # keeps track of which position to start reading from in a line; it's reset to 0 if the nth word has been reached
     
     # using for loop, go through all the lines in the file
     for line in lines:     
